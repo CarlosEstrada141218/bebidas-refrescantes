@@ -1,3 +1,4 @@
+
 body{
     margin: 0 auto;
     padding: 0px;
@@ -92,4 +93,48 @@ backdrop-filter: blur(5px);
 /* Note: backdrop-filter has minimal browser support */
 
 border-radius: 19px;
+}
+
+.container .card{
+  width: 330px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container ,.card:hover{
+  transform: translate(-15px);
+  box-shadow: 0 12px 17px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h4{
+  font-weight: 600;
+}
+
+.container .card p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container .card a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.container .card h5{
+  padding-right: 100px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #820b92;
 }
