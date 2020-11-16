@@ -27,16 +27,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav" style="margin: auto;"> 
                         <li class="nav-item ">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#" style="background-color: #820b92;">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Smoothies</a>
+                          <a class="nav-link" href="#" style="background-color: #820b92;">Smoothies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#" style="background-color: #820b92;">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contactt</a>
+                            <a class="nav-link" href="#" style="background-color: #820b92;">Contactt</a>
                           </li>
                       </ul>
                     </div>
@@ -68,21 +68,24 @@
          <div class="row">
             <div class="col-md-4">
                 <input type="text" name="barra search" placeholder="buscar" class="src" autocomplete="off">
-                <button type="button" class="boton">BUSCAR</button>
+                <button type="button" class="boton"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                  <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg></button>
             </div>
             <div class=" col-m-8"></div>
         </div>
 
         <!--tarjetas-->
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
+            <div class="col-md-4"></div>
             <div class="col-md-2">
                 <div class="card1" style="width: 200px; height: 162px;">
                     <div class="card-body">
                       <h5 class="textoBlanco">Blueberry Special</h5>
                       <p class="textoBlanco">Calories: 20 kcal <br>Size: 10 oz.</p>
                       <h5 class="textoBlanco">$12</h5>
+                      <button type="button" class="boton2">20%</button>
                     </div>
                   </div>
             </div>
@@ -92,15 +95,17 @@
                         <h5 class="textoBlanco">Blueberry Special</h5>
                       <p class="textoBlanco">Calories: 20 kcal <br>Size: 10 oz.</p>
                       <h5 class="textoBlanco">$12</h5>
+                      <button type="button" class="boton3">20%</button>
                     </div>
                   </div>
             </div>
-            <div class="col-md-2">
-                <div class="card3" style="width: 200px; height: 162px;">
+            <div class="col-xs-12 col-md-2">
+                <div class="card3 " style="width: 200px; height: 162px;">
                     <div class="card-body">
                         <h5 class="textoBlanco">Blueberry Special</h5>
                       <p class="textoBlanco">Calories: 20 kcal <br>Size: 10 oz.</p>
                       <h5 class="textoBlanco">$12</h5>
+                      <button type="button" class="boton4">20%</button>
                     </div>
                   </div>
             </div>
@@ -125,27 +130,36 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav" style="margin: auto;"> 
                         <li class="nav-item">
-                          <a class="nav-link" href="#">all</a>
+                          <a class="nav-link" href="#" style="background-color: #820b92;">all</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Popular Drinks</a>
+                            <a class="nav-link" href="#ancla" style="background-color: #820b92;">Popular Drinks</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Natural Smoothies</a>
+                            <a class="nav-link" href="#ancla1" style="background-color: #820b92;">Natural Smoothies</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Juices</a>
+                            <a class="nav-link" href="#ancla2" style="background-color: #820b92;">Juices</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Yogurt</a>
+                            <a class="nav-link" href="#ancla3" style="background-color: #820b92;">Yogurt</a>
                           </li>
                       </ul>
                     </div>
                   </nav>
             </div>
             <div class="col-md-2"></div>
-        </div>
+            </div>
 
+            
+            <div>
+              <a name="ancla"></a>
+              <p><br><br><br></p>
+              <h5 class="titulo1">Popular Drinks</h5>
+            </div>
+
+        <!--inicio de cards-->
+        
         <div class="row">
           <div class="container" style="display:flex;">
 
@@ -192,7 +206,169 @@
                 margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
               <a href=""></a>
             </div>
+          </div>
+        </div>
+        
 
+        <div>
+          <a name="ancla1"></a>
+          <p><br><br><br></p>
+          <h5 class="titulo1">Natural Smoothies</h5>
+        </div>
+        <div class="row">
+          <div class="container" style="display:flex;">
+
+            <div class="card">
+              <img src="imagenes/card1.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card2.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card3.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card4.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a name="ancla2"></a>
+          <p><br><br><br></p>
+          <h5 class="titulo1">Juices</h5>
+        </div>
+        <div class="row">
+          <div class="container" style="display:flex;">
+
+            <div class="card">
+              <img src="imagenes/card1.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card2.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card3.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card4.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a name="ancla3"></a>
+          <p><br><br><br></p>
+          <h5 class="titulo1">Yogurt</h5>
+        </div>
+        <div class="row">
+          <div class="container" style="display:flex;">
+
+            <div class="card">
+              <img src="imagenes/card1.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card2.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card3.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
+
+            <div class="card">
+              <img src="imagenes/card4.jpg" alt="">
+              <h4>Strandberry and blue</h4>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Mi marius</p>
+                <h5>$15.00 us</h5>
+                <img style="width: 50px; height: 50px; margin-left: auto; margin-right: 20px; 
+                margin-top: -45px;" src="imagenes/Ellipse 8.jpg" >
+              <a href=""></a>
+            </div>
           </div>
         </div>
 

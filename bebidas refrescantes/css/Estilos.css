@@ -33,20 +33,15 @@ body{
   border-radius: 30px;
 }
 
-
-
-/*efecto hover para el navbar parpadea demasiado*/
-
-/*.navbar .navbar-nav .nav-item .nav-link:hover,.navbar .navbar-nav .nav-item .nav-link:active {
-  color: #1c007b;
-  margin-right: 20px;
-  border-bottom: 2px solid #1c007b;
-  transition: border-bottom 0.2s;
-
-}*/
-
 .titulo{
   font-size: 80px;
+  color: #820b92;
+}
+
+.titulo1{
+  font-size: 40px;
+  text-align: left;
+  padding-left: 100px;
   color: #820b92;
 }
 
@@ -66,8 +61,53 @@ input.src{
 }
 
 .boton{
-  border-radius: 15px;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
   background-color: #820b92;
+  color: #fff;
+}
+
+.boton1{
+  position: relative;
+  left: 175px;
+  border-radius: 30px;
+  width: 30px;
+  height: 35px;
+  background-color: #820b92;
+  color: #fff;
+}
+
+.boton2{
+  position: relative;
+  left: 60px;
+  top: -50px;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  background: #269603;
+  color: #fff;
+}
+
+.boton3{
+  position: relative;
+  left: 60px;
+  top: -50px;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  background: #e4e015;
+  color: #fff;
+}
+
+.boton4{
+  position: relative;
+  left: 60px;
+  top: -50px;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  background: #910dc5;
   color: #fff;
 }
 
